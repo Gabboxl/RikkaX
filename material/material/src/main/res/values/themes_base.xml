@@ -151,6 +151,27 @@
     </style>
 
     <style name="Base.Material3.Light.Rikka" parent="Base.V21.Material3.Light.Rikka" />
+    <!-- Theme for users -->
+    <style name="Theme.Material.Light" parent="Base.Light" />
+
+    <style name="Theme.Material.Light.Dialog" parent="Base.Light.Dialog" />
+
+    <style name="Theme.Material" parent="Base" />
+
+    <style name="Theme.Material.Dialog" parent="Base.Dialog" />
+
+    <!-- Light theme variants -->
+    <style name="Theme.Material.Light.DarkActionBar" parent="Theme.Material.Light">
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
+
+        <!-- Panel attributes -->
+        <item name="listChoiceBackgroundIndicator" tools:ignore="PrivateResource">@drawable/abc_list_selector_holo_dark</item>
+
+        <item name="colorPrimaryDark" tools:ignore="PrivateResource">@color/primary_dark_material_dark</item>
+        <item name="colorPrimary" tools:ignore="PrivateResource">@color/primary_material_dark</item>
+    </style>
 
     <style name="Base.Material3.Dark.Rikka" parent="Base.V21.Material3.Dark.Rikka" />
 

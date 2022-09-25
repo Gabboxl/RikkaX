@@ -98,6 +98,12 @@ public final class AppCompatDrawableManager {
                         R.drawable.abc_text_select_handle_left_mtrl,
                         R.drawable.abc_text_select_handle_middle_mtrl,
                         R.drawable.abc_text_select_handle_right_mtrl
+                        R.drawable.abc_text_select_handle_left_mtrl_dark,
+                        R.drawable.abc_text_select_handle_middle_mtrl_dark,
+                        R.drawable.abc_text_select_handle_right_mtrl_dark,
+                        R.drawable.abc_text_select_handle_left_mtrl_light,
+                        R.drawable.abc_text_select_handle_middle_mtrl_light,
+                        R.drawable.abc_text_select_handle_right_mtrl_light
                 };
 
                 /**
