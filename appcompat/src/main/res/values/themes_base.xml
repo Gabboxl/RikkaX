@@ -534,10 +534,7 @@
 
         <!-- Panel attributes -->
         <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
-
-        <!-- Panel attributes -->
-        <item name="listChoiceBackgroundIndicator">@drawable/abc_list_selector_holo_dark</item>
-
+        
         <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
         <item name="colorPrimary">@color/primary_material_dark</item>
     </style>
