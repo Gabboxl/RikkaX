@@ -90,7 +90,7 @@ public class ActionBarContextView extends AbsActionBarView {
         mInitialContentHeight = mContentHeight;
         mInitialPaddingTop = getPaddingTop();
 
-        if (Build.VERSION.SDK_INT < 30) {
+        if (Build.VERSION.SDK_INT >= 23 && Build.VERSION.SDK_INT < 30) {
             addOnAttachStateChangeListener(new OnAttachStateChangeListener() {
                 @Override
                 public void onViewAttachedToWindow(View v) {
