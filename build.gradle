@@ -74,7 +74,7 @@ subprojects {
                     }
                 }
             }
-			/*
+			
             repositories {
 				maven {
 					name = "GitHubPackages"
@@ -84,8 +84,7 @@ subprojects {
 						password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
 					}
 				}
-				
-            }*/
+            }
         }
     }
 
