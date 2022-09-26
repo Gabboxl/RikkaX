@@ -74,13 +74,18 @@ subprojects {
                     }
                 }
             }
+			/*
             repositories {
-                maven {
-                    name 'ossrh'
-                    url 'https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/'
-                    credentials(PasswordCredentials)
-                }
-            }
+				maven {
+					name = "GitHubPackages"
+					url = uri("https://maven.pkg.github.com/OWNER/REPOSITORY")
+					credentials {
+						username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+						password = project.findProperty("gpr.key") ?: System.getenv("TOKEN")
+					}
+				}
+				
+            }*/
         }
     }
 
